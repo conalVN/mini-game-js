@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alkatra', cursive;
+}
+.container {
+    display: grid;
+    grid-template: 90px / auto auto auto;
+    border: 1px solid black;
+}
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.turn {
+    font-size: 40px;
+}
+.reset {
+    padding: 8px 16px;
+    border-radius: 12px;
+}
